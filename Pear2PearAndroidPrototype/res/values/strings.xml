@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">START</string>
+    <string name="copyrigth">Copyrigth@ENSP-5GI</string>
+    <!-- debut des chaine pour la gestion des menu -->
+    <string name="option">option</string>
+    <string name="parametre">parametre</string>
+    <string name="profil">Profil</string>
+    <string name="quitter"> Quitter</string>
+    <string name="listeDesPeers">Liste de peers</string>
+    <string name="mesTelechargement">Mes téléchargements</string>
+    <string name="moncatalogue">Mon catalogue</string>
+    <string name="partagerUnFichier">Partager un fichier</string>
+    <string name="partagerUnDossier">Partager un dossier</string>
+    <!-- pour la gestion de l'enregistrement du compte -->
+    <string name="nom">Nom</string>
+    <string name="photo">Photo</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="annuler">Annuler</string>
+    <string name="title_activity_file_list">FileList</string>
+
+    <!-- tueno -->
+
+    <string name="app_name">Pear2Pear</string>
+    <string name="title_activity_file_chooser">FileChooser</string>
+    <string name="title_activity_mon_catalogue">MonCatalogue</string>
+    <string name="title_activity_liste_pear">ListePear</string>
+
+</resources>

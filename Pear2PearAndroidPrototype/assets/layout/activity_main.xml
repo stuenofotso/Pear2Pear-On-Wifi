@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+        <LinearLayout 
+            android:id="@+id/ndonna"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:layout_marginBottom="60dp"
+          
+            >
+            <Button
+		       
+		        android:id="@+id/start"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/start" 
+		        android:textSize="25sp"
+		        android:drawableLeft="@drawable/power"
+		        android:background="@drawable/start_forme"
+		        
+		        />
+            
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/copyrigth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/copyrigth"
+             />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listeFichier">
+        <item >Coller la petite</item>
+        <item >Ca sort comme ca sort</item>
+        <item >Koumba</item>
+        <item >introduction a python</item>
+        <item >la mort de l\'homme</item>
+        <item >les secrets de la vie</item>
+        <item >GO back to home </item>
+        <item > joue moi le megen</item>
+        <item > Jeba laachi</item>
+        <item >introduction à Java</item>
+        <item >C++ pour les nulls</item>
+    </string-array>
+    
+</resources>

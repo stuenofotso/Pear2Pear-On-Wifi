@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item
+        android:id="@+id/option"
+        android:title="@string/option"
+        android:icon="@drawable/option"
+        android:showAsAction="always"
+        >
+        <menu >
+              <item android:id="@+id/listeDesPeers" android:title="@string/listeDesPeers"/>
+              <item android:id="@+id/monCatalogue" android:title="@string/moncatalogue"/>
+             
+        </menu> 
+        
+        </item>
+    
+     <item
+        android:id="@+id/parametre"
+        android:title="@string/parametre"
+        android:icon="@drawable/parametre"
+        android:showAsAction="always">
+        
+        <menu >
+             <item android:id="@+id/profil" android:icon="@drawable/account" android:title="@string/profil"/>
+             <item android:id="@+id/PFichier" android:icon="@drawable/account" android:title="@string/partagerUnFichier"/>
+             <item android:id="@+id/quitter" android:icon="@drawable/power"  android:title="@string/quitter"/>
+            
+        </menu>
+        
+     </item>
+
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item 
+    android:id="@+id/type_images"
+    android:title="Images"
+    />
+<item 
+    android:id="@+id/type_videos"
+    android:title="Videos"
+    
+    />
+<item 
+    android:id="@+id/type_sons"
+    android:title="Sons"
+    />
+
+<item 
+    android:id="@+id/type_documents"
+    android:title="Documents"
+    />
+<item 
+    android:id="@+id/type_autres"
+    android:title="Autres"
+    />
+</menu>

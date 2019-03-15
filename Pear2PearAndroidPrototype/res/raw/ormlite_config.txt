@@ -1,0 +1,135 @@
+#
+# generated on 2016/01/12 12:16:07
+#
+# --table-start--
+dataClass=com.polytech.pear2pear.models.CatalogueDeFichiers
+tableName=cataloguedefichiers
+# --table-fields-start--
+# --field-start--
+fieldName=idFichier
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=nomFichier
+# --field-end--
+# --field-start--
+fieldName=descriptionFichier
+# --field-end--
+# --field-start--
+fieldName=hashFichier
+# --field-end--
+# --field-start--
+fieldName=nbreTelechargements
+# --field-end--
+# --field-start--
+fieldName=adressePeer
+# --field-end--
+# --field-start--
+fieldName=adresseMacPeer
+# --field-end--
+# --field-start--
+fieldName=cheminFichier
+# --field-end--
+# --field-start--
+fieldName=datePublication
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.polytech.pear2pear.models.CatalogueLocal
+tableName=cataloguelocal
+# --table-fields-start--
+# --field-start--
+fieldName=idCatalogue
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=nomFichier
+# --field-end--
+# --field-start--
+fieldName=descriptionFichier
+# --field-end--
+# --field-start--
+fieldName=cheminFichier
+# --field-end--
+# --field-start--
+fieldName=nbreTelechargements
+# --field-end--
+# --field-start--
+fieldName=hashFichier
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.polytech.pear2pear.models.CataloguePartageDeFichiers
+tableName=cataloguepartagedefichiers
+# --table-fields-start--
+# --field-start--
+fieldName=idCatalogue
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=idFichier
+# --field-end--
+# --field-start--
+fieldName=nomFichier
+# --field-end--
+# --field-start--
+fieldName=descriptionFichier
+# --field-end--
+# --field-start--
+fieldName=identifiantUniqueSousReseau
+# --field-end--
+# --field-start--
+fieldName=nbreTelechargements
+# --field-end--
+# --field-start--
+fieldName=hashFichier
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.polytech.pear2pear.models.CatalogueSousReseaux
+tableName=cataloguesousreseaux
+# --table-fields-start--
+# --field-start--
+fieldName=idCatalogue
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=identifiantUniqueSousReseau
+# --field-end--
+# --field-start--
+fieldName=adressePearPasserelle
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.polytech.pear2pear.models.CatalogueTableRoutage
+tableName=cataloguetableroutage
+# --table-fields-start--
+# --field-start--
+fieldName=idCatalogue
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=nbreSauts
+# --field-end--
+# --field-start--
+fieldName=identifiantUniqueSousReseau
+# --field-end--
+# --field-start--
+fieldName=identifiantUniqueSousReseauPasserelle
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
